@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="project.css" />
+
+    <title>project</title>
+  </head>
+  <body>
+    <div class="money">
+      <div class="header">
+        <a href="project.html" class="logo">ILLYASH DIN MIYA</a>
+        <div class="header-right">
+          <a class="contact" href="contact.html">Contact</a>
+          <a class="active" href="media.html">Media</a>
+
+          <a href="projet.html">Project</a>
+          <a href="login.html">Log In</a>
+        </div>
+      </div>
+      <div class="name">
+        <img src="image6.jpg" />
+        <p>
+          SEE passed student at the school of Dulegaunda is reading a web
+          development in UNVR teaching institute Pokhara.
+        </p>
+      </div>
+      <div class="intro">
+        <li>intro</li>
+        <p>
+          My name is Illyash Din Miya, and I was born on 2066-04-21 in the
+          vibrant city of Pokhara, Nepal. Currently, I reside in Pokhara,
+          although my early years were spent in the tranquil town of Dulegauda.
+          I recently completed my Secondary Education Examination (SEE) from
+          Panchamuni Dev Secondary School, where I pursued Education and
+          Economics as my optional subjects. With a growing interest in
+          Information and Technology, I have decided to further my knowledge in
+          this field. During the three-month holiday following my SEE exams, I
+          enrolled in a teaching institute specializing in web development. This
+          opportunity allows me to dive deeper into the world of technology,
+          acquiring essential skills that I hope to use in shaping my future
+          career. My journey in web development has been both challenging and
+          rewarding, and I am excited about the possibilities that lie ahead.
+          Living in Pokhara, I am inspired by the city's blend of natural beauty
+          and technological advancement. This motivates me to harness the power
+          of technology to contribute positively to my community and beyond.
+          Through my studies and hands-on experiences, I aim to become
+          proficient in web development and explore various other facets of
+          information technology.
+        </p>
+      </div>
+    </div>
+
+    <div class="slider-container">
+      <div class="slide">
+        <p>
+          “Education makes a people easy to lead but difficult to drive; easy to
+          govern, but impossible to enslave.” —Peter Brougham
+        </p>
+      </div>
+      <div class="slide">
+        <p>
+          “The goal of education is the advancement of knowledge and the
+          dissemination of truth.” —John F. Kennedy
+        </p>
+      </div>
+      <div class="slide">
+        <p>
+          “Education is the most powerful weapon which you can use to change the
+          world.” —Nelson Mandela
+        </p>
+      </div>
+      <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+      <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+    <script>
+      let slideIndex = 0;
+      showSlide(slideIndex);
+
+      function changeSlide(n) {
+        showSlide((slideIndex += n));
+      }
+
+      function showSlide(n) {
+        const slides = document.getElementsByClassName("slide");
+        if (n >= slides.length) {
+          slideIndex = 0;
+        }
+        if (n < 0) {
+          slideIndex = slides.length - 1;
+        }
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex].style.display = "block";
+      }
+    </script>
+
+    <div class="finish">
+      <h1>ILLYASH DIN MIYA</h1>
+      <h2>illyashdinmiya973@gmail.com</h2>
+      <iframe
+        width="350px"
+        height="350px"
+        src="https://www.youtube.com/embed/aXZPJ8yGbwU?si=LR4Q-P5q2Y2mLmiX"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+
+      <h3>MADE BY ILLYASH DIN MIYA</h3>
+    </div>
+  </body>
+</html>

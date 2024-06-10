@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(224, 224, 224);
+}
+.header {
+  overflow: hidden;
+  height: 100px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.header img {
+  height: 70px;
+  width: auto;
+}
+
+select {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+input {
+  width: 500px;
+  height: 50px;
+  border: 1px solid rgb(219, 219, 219);
+}
+button {
+  height: 50px;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: #1c97d6;
+  color: white;
+  font-size: large;
+}
+
+.final {
+  line-height: 0%;
+  display: flex;
+  justify-content: space-between;
+}
+.final a {
+  text-decoration: none;
+  color: black;
+}
+
+.final p {
+  margin-top: 50px;
+  margin-right: 100px;
+}
+.second {
+  height: 50px;
+  width: auto;
+  background-color: #1c97d6;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.second a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.container {
+  padding: 50px 20px;
+}
+.mini-container {
+  display: grid;
+  margin-left: 1000px;
+  margin-top: -510px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.flex img {
+  width: 104px;
+  height: 104px;
+}
+
+.category {
+  width: 1300px;
+  height: 357px;
+  padding: 50px 20px;
+  margin-left: 30px;
+  background-color: white;
+}
+
+.product {
+  width: 1300px;
+  height: auto;
+  padding: 50px 20px;
+  margin-left: 30px;
+  background-color: white;
+}
+.proimg p {
+  color: #1c97d6;
+}
+
+.proimg :hover{
+  border: 1px solid black;
+}
+
+.proimg {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.proimg img {
+  width: 104px;
+  height: 104px;
+}
+
+
+.head {
+  padding: 80px;
+}
+
+
+
+.footer {
+  margin: 0;
+  padding: 50px 20px;
+  
+  background-color: white;
+   display: flex;
+   justify-content: space-between;
+}
+
+.plot2{
+width: 200px;
+margin-right: 600px;
+
+}
+
+.footer p{
+ color:  rgb(116, 114, 114);
+}

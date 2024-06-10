@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+}
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 50px;
+  margin-left: 10px;
+}
+
+.profile p{
+  font-size: x-large;
+  margin-left: 50px;
+  margin-top: -25px;
+}
+
+.dashboard {
+  width: 200px;
+  margin-left: 30px;
+line-height: 2;
+  border: 1px solid black;
+  font-size: large;
+  color: white;
+  background-color: rgb(51, 45, 45);
+}
+.dashboard :hover{
+background-color: white;
+color: black;
+
+
+
+
+}
+.dashboard a {
+  list-style-type: none;
+  padding-left: 40px;
+line-height: 3;
+  align-items: center;
+  display: grid;
+  text-decoration: none;
+  color: white;
+
+}
+
+.profile-edit{
+
+  width: 900px;
+  margin-left: 300px;
+  margin-top: -480px;
+
+}
+.edit-profile{
+  border: 1px solid black;
+}
+.name{
+  padding: 10px;
+  display: flex;
+  
+  justify-content: space-between;
+}
+.name input{
+  width: 300px;
+  height: 40px;
+}
+
+.username{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.username input{
+  width: 300px;
+  height: 40px;
+}
+
+
+
+.final{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.final input{
+  width: 900px;
+  height: 40px;
+}
+
+.picture img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 50px;
+  margin-left: 10px;
+}
+.picture button{
+  width: 200px;
+  height: 40px;
+  justify-content: center;
+  background-color: lightgreen;
+}

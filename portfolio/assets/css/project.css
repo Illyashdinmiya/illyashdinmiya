@@ -36,7 +36,7 @@ body {
   color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 12px;
-  font-size: larger;
+  font-size: 3.5vh;
 }
 
 .header-right a:hover {
@@ -91,7 +91,11 @@ body {
   color: #f1f1f1;
   margin-left: 50%;
   font-size: x-large;
-  line-height: 2.6;
+  line-height: 2;
+}
+
+.myinformation{
+  margin: 100px;
 }
 
 .money {
@@ -196,13 +200,30 @@ body {
   display: none;
 }
 
+.step {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  gap: 50px;
+}
+
 /* Responsive styles for mobile only */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   .header {
     justify-content: flex-start;
   }
 
-  .finish{
+
+  
+  .step {
+    grid-template-columns: 10px;
+  }
+  
+  .final2, .final3, .final4, .final5, .final6, .final7 {
+    width: 100px;
+  }
+
+  .finish {
     display: block;
     justify-content: center;
     margin-right: 350px;
@@ -239,7 +260,6 @@ body {
 
   .name img {
     width: 80vw;
-  
     max-width: 768px;
     margin-left: 35px;
     margin-bottom: 10px;
@@ -268,12 +288,12 @@ body {
     font-size: 3vw;
   }
 
-  .finish h1{
+  .finish h1 {
     width: 300px;
     margin-left: 50px;
   }
 
-  .finish h3{
+  .finish h3 {
     width: 300px;
   }
 }

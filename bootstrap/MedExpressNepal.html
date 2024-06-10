@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="webpage.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="./images/image7.webp" alt="MedExpress Nepal" />
+      <div class="search">
+        <select
+          name="product_cat"
+          id="header-search-product-cat"
+          class="product-cat-dd"
+        >
+          <option value="0" selected="selected">All</option>
+          <option class="level-0" value="anesthetic-or-demulcent">
+            Anesthetic or demulcent
+          </option>
+          <option class="level-0" value="antacid">Antacid</option>
+          <option class="level-0" value="anthelmintics">Anthelmintics</option>
+          <option class="level-0" value="anti-allergic">Anti Allergic</option>
+          <option class="level-0" value="anti-anxiety">Anti anxiety</option>
+          <option class="level-0" value="anti-bacterial">Anti bacterial</option>
+          <option class="level-0" value="anti-cancer">Anti Cancer</option>
+          <option class="level-0" value="anti-cold">Anti cold</option>
+          <option class="level-0" value="anti-diarrheal">Anti diarrheal</option>
+          <option class="level-0" value="anti-migraine">Anti Migraine</option>
+          <option class="level-0" value="anti-seizures">Anti Seizures</option>
+          <option class="level-0" value="anti-ulcer">Anti ulcer</option>
+          <option class="level-0" value="anti-acne">ANTI-ACNE</option>
+          <option class="level-0" value="anti-arrhythmic">
+            Anti-arrhythmic
+          </option>
+          <option class="level-0" value="anti-diabetic">Anti-diabetic</option>
+          <option class="level-0" value="anti-hypertensive-drugs">
+            Anti-Hypertensive drugs
+          </option>
+          <option class="level-0" value="anti-pruritic">Anti-pruritic</option>
+          <option class="level-0" value="antiamoebic">Antiamoebic</option>
+          <option class="level-0" value="antiemetic-drugs">
+            Antiemetic Drugs
+          </option>
+          <option class="level-0" value="antihistamines">Antihistamines</option>
+          <option class="level-0" value="antimicrobial">Antimicrobial</option>
+          <option class="level-1" value="antibiotics">
+            &nbsp;&nbsp;&nbsp;Antibiotics
+          </option>
+          <option class="level-1" value="antifungal">
+            &nbsp;&nbsp;&nbsp;Antifungal
+          </option>
+          <option class="level-1" value="antiparasitic">
+            &nbsp;&nbsp;&nbsp;Antiparasitic
+          </option>
+          <option class="level-0" value="antimuscarinic">Antimuscarinic</option>
+          <option class="level-0" value="antipyretic-analgesics">
+            Antipyretic Analgesics
+          </option>
+          <option class="level-1" value="analgesics">
+            &nbsp;&nbsp;&nbsp;Analgesics
+          </option>
+          <option class="level-1" value="antiinflammatory">
+            &nbsp;&nbsp;&nbsp;Antiinflammatory
+          </option>
+          <option class="level-0" value="antiseptic">Antiseptic</option>
+          <option class="level-1" value="handiplast">
+            &nbsp;&nbsp;&nbsp;Handiplast
+          </option>
+          <option class="level-0" value="antispasmodic">Antispasmodic</option>
+          <option class="level-0" value="antiviral">Antiviral</option>
+          <option class="level-0" value="baby-care-2">Baby Care</option>
+          <option class="level-0" value="bone-care">Bone Care</option>
+          <option class="level-0" value="cardiac-drugs">Cardiac Drugs</option>
+          <option class="level-1" value="anticoagulant-cardiac-drugs">
+            &nbsp;&nbsp;&nbsp;Anticoagulant
+          </option>
+          <option class="level-1" value="anticoagulant">
+            &nbsp;&nbsp;&nbsp;Blood Thinner
+          </option>
+          <option class="level-0" value="cns-drugs">CNS Drugs</option>
+          <option class="level-1" value="alzheimers">
+            &nbsp;&nbsp;&nbsp;Alzheimers
+          </option>
+          <option class="level-1" value="neuro-medicines">
+            &nbsp;&nbsp;&nbsp;Neuro Medicines
+          </option>
+          <option class="level-0" value="condoms">Condoms</option>
+          <option class="level-0" value="contraceptives">Contraceptives</option>
+          <option class="level-0" value="copd">COPD</option>
+          <option class="level-0" value="cosmetics">Cosmetics</option>
+          <option class="level-0" value="covid-essentials">
+            COVID Essentials
+          </option>
+          <option class="level-0" value="dental-care">Dental Care</option>
+          <option class="level-1" value="kids-dental-care-dental-care">
+            &nbsp;&nbsp;&nbsp;kids dental care
+          </option>
+          <option class="level-0" value="dermatologist">Dermatologist</option>
+          <option class="level-0" value="diabetics">Diabetics</option>
+          <option class="level-0" value="diaper">Diaper</option>
+          <option class="level-0" value="dietary-supplements">
+            Dietary Supplements
+          </option>
+          <option class="level-1" value="child-dietary-supplements">
+            &nbsp;&nbsp;&nbsp;Child Dietary Supplements
+          </option>
+          <option class="level-0" value="disinfectant">Disinfectant</option>
+          <option class="level-0" value="diuretics">Diuretics</option>
+          <option class="level-0" value="ear-care">EAR CARE</option>
+          <option class="level-0" value="enzyme">Enzyme</option>
+          <option class="level-0" value="eye-care">Eye care</option>
+          <option class="level-0" value="family-care">Family Care</option>
+          <option class="level-0" value="feeding-bottle-baby-care">
+            Feeding Bottle/ Baby Care
+          </option>
+          <option class="level-0" value="gastro-intestinal-care">
+            Gastro Intestinal Care
+          </option>
+          <option class="level-1" value="constipation">
+            &nbsp;&nbsp;&nbsp;Constipation
+          </option>
+          <option class="level-1" value="deworming">
+            &nbsp;&nbsp;&nbsp;Deworming
+          </option>
+          <option class="level-1" value="p-p-i">&nbsp;&nbsp;&nbsp;P.P.I</option>
+          <option class="level-1" value="pulmonary-drugs">
+            &nbsp;&nbsp;&nbsp;Pulmonary Drugs
+          </option>
+          <option class="level-0" value="gout">Gout</option>
+          <option class="level-0" value="hand-sanitizer">Hand Sanitizer</option>
+          <option class="level-0" value="hmg-coa-reductase-inhibitors">
+            HMG-COA REDUCTASE INHIBITORS
+          </option>
+          <option class="level-0" value="hormones">Hormones</option>
+          <option class="level-1" value="steroid-hormones">
+            &nbsp;&nbsp;&nbsp;Steroid Hormones
+          </option>
+          <option class="level-0" value="hyperhidrosis">Hyperhidrosis</option>
+          <option class="level-0" value="hypertension">Hypertension</option>
+          <option class="level-0" value="immunity-buster">
+            Immunity Buster
+          </option>
+          <option class="level-0" value="insecticide-mosquito-repellant">
+            Insecticide/ mosquito repellant
+          </option>
+          <option class="level-0" value="kids-dental-care">
+            KIDS DENTAL CARE
+          </option>
+          <option class="level-0" value="lipid-lowering-drugs">
+            Lipid Lowering Drugs
+          </option>
+          <option class="level-0" value="liver-disorders">
+            Liver Disorders
+          </option>
+          <option class="level-0" value="local-anesthesia">
+            Local Anesthesia
+          </option>
+          <option class="level-0" value="medical-devices">
+            Medical Devices
+          </option>
+          <option class="level-0" value="migraine">Migraine</option>
+          <option class="level-0" value="milk-powder-formula">
+            Milk Powder Formula
+          </option>
+          <option class="level-0" value="motion-sickness">
+            Motion Sickness
+          </option>
+          <option class="level-0" value="mucolytic">Mucolytic</option>
+          <option class="level-0" value="muscle-relaxant">
+            Muscle Relaxant
+          </option>
+          <option class="level-0" value="nitrates">Nitrates</option>
+          <option class="level-0" value="nsaid">NSAID</option>
+          <option class="level-0" value="oral-dental-care">
+            Oral/Dental Care
+          </option>
+          <option class="level-0" value="ors">ORS</option>
+          <option class="level-0" value="orthopaedic">Orthopaedic</option>
+          <option class="level-0" value="otc">OTC</option>
+          <option class="level-0" value="pain-relief">Pain Relief</option>
+          <option class="level-0" value="painkillers">Painkillers</option>
+          <option class="level-0" value="pandemic">Pandemic</option>
+          <option class="level-0" value="pde-5inhibitor">PDE 5INHIBITOR</option>
+          <option class="level-0" value="personal-care">Personal Care</option>
+          <option class="level-1" value="baby-care">
+            &nbsp;&nbsp;&nbsp;Baby Care
+          </option>
+          <option class="level-1" value="hair-care">
+            &nbsp;&nbsp;&nbsp;Hair Care
+          </option>
+          <option class="level-1" value="men-hygiene">
+            &nbsp;&nbsp;&nbsp;Men Hygiene
+          </option>
+          <option class="level-1" value="mother-care">
+            &nbsp;&nbsp;&nbsp;Mother Care
+          </option>
+          <option class="level-1" value="women-health-and-hygiene">
+            &nbsp;&nbsp;&nbsp;Women Health and Hygiene
+          </option>
+          <option class="level-0" value="proton-pump-inhibitors">
+            Proton Pump Inhibitors
+          </option>
+          <option class="level-0" value="respiratory-care">
+            Respiratory Care
+          </option>
+          <option class="level-1" value="cough-preparations">
+            &nbsp;&nbsp;&nbsp;Cough Preparations
+          </option>
+          <option class="level-1" value="decongestant">
+            &nbsp;&nbsp;&nbsp;Decongestant
+          </option>
+          <option class="level-1" value="rhinitis">
+            &nbsp;&nbsp;&nbsp;Rhinitis
+          </option>
+          <option class="level-0" value="rheumatoid-and-gout">
+            Rheumatoid and Gout
+          </option>
+          <option class="level-0" value="sanitary-pad">Sanitary Pad</option>
+          <option
+            class="level-0"
+            value="selective-serotonin-reuptake-inhibitorssri"
+          >
+            Selective Serotonin Reuptake Inhibitor(SSRI)
+          </option>
+          <option class="level-0" value="skin-care">Skin Care</option>
+          <option class="level-1" value="antiacne">
+            &nbsp;&nbsp;&nbsp;Anti Acne
+          </option>
+          <option class="level-1" value="topial-steroids">
+            &nbsp;&nbsp;&nbsp;Topial Steroids
+          </option>
+          <option class="level-0" value="surgical-dressing">
+            Surgical Dressing
+          </option>
+          <option class="level-0" value="toiletries">Toiletries</option>
+          <option class="level-0" value="uncategorized">Uncategorized</option>
+          <option class="level-0" value="urology">Urology</option>
+          <option class="level-0" value="vitamins">vitamins</option>
+          <option class="level-0" value="vitamins-and-minerals">
+            Vitamins Supplements and Minerals
+          </option>
+          <option class="level-1" value="supplement">
+            &nbsp;&nbsp;&nbsp;Supplement
+          </option>
+          <option class="level-0" value="wellness-and-fitness">
+            Wellness and Fitness
+          </option>
+          <option class="level-1" value="herbal-healthcare">
+            &nbsp;&nbsp;&nbsp;Herbal Healthcare
+          </option>
+          <option class="level-0" value="wheelchair">WHEELCHAIR</option>
+          <option class="level-0" value="wound-care">Wound Care</option>
+        </select>
+
+        <input type="" placeholder="search for item" />
+        <button>search</button>
+      </div>
+      <div class="final">
+        <h2>contact</h2>
+        <p>9806594764</p>
+
+        <h2><a href="#">login/register</a></h2>
+      </div>
+    </div>
+
+    <div class="second">
+      <a href="https://medexpressnepal.com/">HOME</a>
+      <a href="https://medexpressnepal.com/shop/">SHOP</a>
+      <a href="https://medexpressnepal.com/product-category/baby-care/"
+        >BABY CARE</a
+      >
+      <a href="https://medexpressnepal.com/product-category/family-care/"
+        >FAMILY CARE</a
+      >
+      <a href="https://medexpressnepal.com/product-category/cosmetics/"
+        >COSMETICS</a
+      >
+      <a
+        href="https://medexpressnepal.com/product-category/dietary-supplements/"
+        >DIETARY SUPPLEMENTS</a
+      >
+      <a href="https://medexpressnepal.com/product-category/skin-care/"
+        >SKIN CARE</a
+      >
+      <a href="https://medexpressnepal.com/contact/">CONTACT</a>
+    </div>
+
+    <div class="container">
+      <div class="card1">
+        <a
+          href="https://medexpressnepal.com/product-category/personal-care/women-health-and-hygiene/"
+        >
+          <img
+            src="./images/IMAGE2.png
+  "
+        /></a>
+      </div>
+      <div class="mini-container">
+        <div class="card2">
+          <img src="./images/image3.png" />
+        </div>
+
+        <div class="card3">
+          <img src="./images/image4.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h1>SHOP BY CATEGORY</h1>
+      <div class="flex">
+        <div class="monk1">
+          <img
+            src="https://medexpressnepal.com/wp-content/uploads/2021/02/cosmetic-products-with-salt-toothbrush-razor-hairbrush-leaves-white-backdrop_23-2147818062-300x300.jpg"
+          />
+          <p>personal-care</p>
+        </div>
+
+        <div class="monk2">
+          <img
+            src="https://medexpressnepal.com/wp-content/uploads/2021/02/diabetics-300x300.jpg"
+          />
+          <p>diabetics</p>
+        </div>
+
+        <div class="monk3">
+          <img
+            src="https://medexpressnepal.com/wp-content/uploads/2021/02/family-300x300.jpg"
+          />
+          <p>family-care</p>
+        </div>
+        <div class="monk4">
+          <img
+            src="https://medexpressnepal.com/wp-content/uploads/2021/02/babycare-300x300.jpg"
+          />
+          <p>baby-care</p>
+        </div>
+        <div class="monk5">
+          <img
+            src="https://medexpressnepal.com/wp-content/uploads/2020/08/Screenshot-62-300x300.png"
+          />
+          <p>orthopaedic</p>
+        </div>
+
+        <div class="monk6">
+          <img
+            src="https://medexpressnepal.com/wp-content/uploads/2020/06/lipo-6-defining-gelwait-trimmer-020620-300x300.png"
+          />
+          <p>fittness/wellness</p>
+        </div>
+        <div class="monk7">
+          <img
+            src="https://medexpressnepal.com/wp-content/uploads/2020/06/1482841484-romsons-dial-check-blood-pressure-bp-monitor-palm-type-aneroid-sphygmomanometer-300x300.jpg"
+          />
+          <p>Devices</p>
+        </div>
+      </div>
+    </div><br><br><br>
+
+
+<div class="product">
+  <h1>Product</h1>
+<div class="proimg">
+<div class="punk1">
+
+  <img src="https://medexpressnepal.com/wp-content/uploads/2024/05/kids-smart-bursts-300x300.jpeg">
+  <p>vitamin d3 for children</p>
+  <a>RS 2,550.00</a>
+</div>
+
+<div class="punk2">
+
+  <img src="https://medexpressnepal.com/wp-content/uploads/2024/04/horliks.jpeg">
+  <p>horliks</p>
+  <a>RS 454.00</a>
+</div>
+
+<div class="punk3">
+
+  <img src="https://medexpressnepal.com/wp-content/uploads/2024/04/ensure.jpeg">
+  <p>ensure</p>
+  <a>RS 3090.00</a>
+</div>
+
+
+
+<div class="punk4">
+
+  <img src="https://medexpressnepal.com/wp-content/uploads/2024/04/xann.jpg">
+  <p>omega</p>
+  <a>RS 2,696.00</a>
+</div>
+
+
+
+
+<div class="punk5">
+
+  <img src="https://medexpressnepal.com/wp-content/uploads/2024/03/MMS3.jpeg">
+  <p>mms stage</p>
+  <A>RS 1,254.00</A>
+</div>
+
+
+
+<div class="punk6">
+
+  <img src="https://medexpressnepal.com/wp-content/uploads/2023/10/MITHPLUS-300x300.jpg">
+  <p>mithplus</p>
+  <a>RS 900.00</a>
+</div>
+
+
+
+<div class="punk7">
+<img src="https://medexpressnepal.com/wp-content/uploads/2023/10/ACTIONE-300x300.jpg" >
+  <p>acti one tabelets</p>
+
+  <a>RS 992.00</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="head">
+<h3>MedExpress Nepal</h3>
+<p>MedExpress Nepal is an online pharmacy in Nepal based in Kathmandu and Lalitpur. We provide medicines right in front of your doorsteps.
+</p>
+
+<h3>Get every medicine on time & everytime:</h3>
+<P>When you purchase medicines on MedExpress Nepal, you can be assured that you will get the medicines you order. Our trained pharmacists, partner pharmacies and medical stores ensure that your medicines are delivered to you on time.</P>
+
+<H3>Buy Health Devices & Surgical Supplies:</H3>
+<p>Good healthcare begins at home. Keep your first-aid kits stocked with thermometer, bandages, antiseptic solutions, mosquito repellent and other essential medical equipment such as health monitors and weighing scales.</p>
+
+
+</div>
+
+<div class="footer">
+<div class="plot1">
+<h4>Contact Us</h4>
+
+
+<P>Call us</P>
+
+<a href="#">9806594764</a>
+
+<P>Pokhara, kaski</P>
+<P>medexpressnepal@gmail.com</P>
+</div>
+
+<div class="plot2">
+<h4>About Us</h4>
+<P>MedExpress Nepal is a pharmacy based in Kathmandu and Lalitpur. We provide medicines right in front of your doorsteps</P>
+
+
+
+</div>
+<P>@Copyright © 2021 MedExpress Nepal. All rights reserved.
+</P>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

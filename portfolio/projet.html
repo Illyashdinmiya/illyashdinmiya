@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/project.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/project.css" />
     <script src="./assets/css/Untitled-1.js"></script>
     <title>project</title>
-</head>
-<body>
-
-  
+  </head>
+  <body>
     <div class="header">
       <div class="logo">
-      <a href="project.html" class="logo">ILLYASH DIN MIYA</a>
-    </div>
+        <a href="project.html" class="logo">ILLYASH DIN MIYA</a>
+      </div>
       <button class="toggle-button" onclick="toggleMenu()">☰</button>
       <div class="header-right" id="header-right">
         <a href="project.html">Home</a>
@@ -22,70 +20,91 @@
         <a href="blog.html">Blog</a>
         <a class="contact" href="contactProject.html">Contact</a>
         <a href="loginProject.html">Log In</a>
+        <button id="theme"> Dark Theme</button>
       </div>
-      
     </div>
     <div class="socialMedia">
-    <div class="final" style="width: 810px; border: 1px solid black; padding: 4px; margin-left: 350px;" >
-<img src="./assets/images/fb.png" width="800px">
-<h3 style="display: flex; justify-content: center;">For Any Quiry</h3>
-    </div>
-   <div class="step">
-    <div class="final2" style="width: 710px; border: 1px solid black; padding: 4px;" >
-    <img src="./assets/images/pro1.png" width="700px">
-    <P>Visit Here -</P><a href="#">www.myorder.com</a>
-    
-    </div>
-
-    <div class="final3" style="width: 710px; border: 1px solid black; padding: 4px;" >
-      <img src="./assets/images/pro3.png" style="width: 700px; height: 355px;">
-      <p>Visit Here -</p><a href="#">www.lead.com</a>
-      
+      <div
+        class="final"
+        style="
+          width: 810px;
+          border: 1px solid black;
+          padding: 4px;
+          margin-left: 350px;
+        "
+      >
+        <img src="./assets/images/fb.png" width="800px" />
+        <h3 style="display: flex; justify-content: center">For Any Quiry</h3>
       </div>
-
-
-      <div class="final4" style="width: 710px; border: 1px solid black; padding: 4px;" >
-        <img src="./assets/images/pro4.png" width="700px" height="355px">
-        <p>Visit Here -</p><a href="#">www.index.com</a>
-        
+      <div class="step">
+        <div
+          class="final2"
+          style="width: 710px; border: 1px solid black; padding: 4px"
+        >
+          <img src="./assets/images/pro1.png" width="700px" />
+          <p>Visit Here -</p>
+          <a href="#">www.myorder.com</a>
         </div>
 
+        <div
+          class="final3"
+          style="width: 710px; border: 1px solid black; padding: 4px"
+        >
+          <img
+            src="./assets/images/pro3.png"
+            style="width: 700px; height: 355px"
+          />
+          <p>Visit Here -</p>
+          <a href="#">www.lead.com</a>
+        </div>
 
-        <div class="final5" style="width: 710px; border: 1px solid black; padding: 4px;" >
-          <img src="./assets/images/pro5.png" width="700px" height="355px">
-          <p>Visit Here -</p><a href="#">www.medexpress.com</a>
-          
-          </div>
+        <div
+          class="final4"
+          style="width: 710px; border: 1px solid black; padding: 4px"
+        >
+          <img src="./assets/images/pro4.png" width="700px" height="355px" />
+          <p>Visit Here -</p>
+          <a href="#">www.index.com</a>
+        </div>
+
+        <div
+          class="final5"
+          style="width: 710px; border: 1px solid black; padding: 4px"
+        >
+          <img src="./assets/images/pro5.png" width="700px" height="355px" />
+          <p>Visit Here -</p>
+          <a href="#">www.medexpress.com</a>
+        </div>
+
+        <div
+          class="final6"
+          style="width: 710px; border: 1px solid black; padding: 4px"
+        >
+          <img src="./assets/images/pro6.png" width="700px" height="355px" />
+          <p>Visit Here -</p>
+          <a href="#">www.Reev.com</a>
+        </div>
+
+        <div
+          class="final7"
+          style="width: 710px; border: 1px solid black; padding: 4px"
+        >
+          <img src="./assets/images/pro7.png" width="700px" height="355px" />
+          <p>Visit Here -</p>
+          <a href="#">www.youtube.com</a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var button = document.getElementById('theme');
+      var body = document.getElementsByTagName('body')[0];
+      document.addEventListener('click', ()=>{
+        console.log(body.style.background)
+        body.style.background = '#3e3e3e';
+      });
 
 
-          <div class="final6" style="width: 710px; border: 1px solid black; padding: 4px;" >
-            <img src="./assets/images/pro6.png" width="700px" height="355px">
-            <p>Visit Here -</p><a href="#">www.Reev.com</a>
-            
-            </div>
-
-
-
-            <div class="final7" style="width: 710px; border: 1px solid black; padding: 4px;" >
-              <img src="./assets/images/pro7.png" width="700px" height="355px">
-              <p>Visit Here -</p><a href="#">www.youtube.com</a>
-              
-              </div>
-
-            </div>
-
-             
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-</body>
+    </script>
+  </body>
 </html>

@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img {
+  width: 56px;
+  height: 62px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+
+
+.a a {
+  color: black;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: large;
+}
+
+.figma img {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: auto;
+  margin-top: 82px; /* Adjusted for the fixed header */
+  background-size: cover; /* Ensure the background image covers the entire section */
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #d0f0cb;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  margin: 20px auto; /* Center container with margin */
+  max-width: 1200px;
+}
+
+.text {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  line-height: 1.5;
+  font-size: 2em;
+  color: #ffffff;
+  margin-top: -500px;
+  margin-left: 250px;
+}
+
+.img {
+  margin-left: 250px;
+  margin-top: -100px;
+  position: relative;
+  z-index: 2;
+}
+
+.img img {
+  width: 100%;
+  max-width: 80%;
+}
+
+.button {
+  margin-right: 150px;
+  margin-left: 650px;
+  margin-top: -300px;
+  position: relative;
+  z-index: 2;
+}
+
+.button button {
+  background-color: #082700;
+  color: white;
+  font-size: larger;
+}
+
+.Technologies h3 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  padding: 5px;
+}
+
+.Technologies {
+  background-color: #d0f0cb;
+  height: auto;
+  margin-top: 200px; /* Increase this value to move the section further down */
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  margin: 20px auto; /* Center container with margin */
+  max-width: 1200px;
+}
+
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 28px;
+  gap: 10px;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.image1, .image2, .image3 {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex: 1 1 calc(33% - 20px);
+  box-sizing: border-box;
+}
+
+.image1 img, .image2 img, .image3 img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.projects h3 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  padding: 5px;
+}
+
+.projects {
+  background-color: #d0f0cb;
+  height: auto;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  margin: 20px auto; /* Center container with margin */
+  max-width: 1200px;
+}
+
+.pic {
+  display: flex;
+
+  padding: 28px;
+  margin: 10px;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.pic1,
+.pic2 {
+  border: 1px solid black;
+  height: 350px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.pic1, .pic2 {
+  border: 1px solid black;
+  height: 350px;
+  height: auto;
+  border-radius: 5px;
+  padding: 20px;
+ 
+  
+}
+
+.pic1 img, .pic2 img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+}
+cover
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ffffff;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.303);
+  border-radius: 5  px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #d0f0cb;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  margin: 20px auto; /* Center container with margin */
+  max-width: 1200px;
+}
+
+.column {
+  float: left;
+  color: black;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 700px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .row img {
+    height: auto;
+  }
+
+  .logo {
+    margin-left: 10px;
+  }
+
+  .img, .button {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .a a {
+    margin-right: 10px;
+    font-size: medium;
+  }
+
+  .image1, .image2, .image3 {
+    flex: 1 1 100%;
+  }
+
+  .pic1, .pic2 {
+    flex: 1 1 100%;
+  }
+
+  .Technologies, .projects, .container {
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  .Technologies h3, .projects h3 {
+    font-size: large;
+  }
+}

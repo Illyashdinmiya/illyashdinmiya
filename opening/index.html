@@ -24,27 +24,39 @@
        
       
     
-       
+      <div id="home"> 
       
   
    
       <!-- ============= COMPONENT ============== -->
-      <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid" style="background-color: #91cd88; color: rgb(255, 255, 255); margin: 0; padding: 15px; margin-top: -10;">
-           
+      <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark" style="   height: 82px;
+      align-items: center;
+      background-color: #91cd88;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      z-index: 1000;
+      width: 100%;
+      top: 0;
+      position: fixed;">
+        <div class="container-fluid" style="background-color: #91cd88; color: rgb(255, 255, 255); margin: 0; padding: 15px; margin-top: -10px;">
+          <div class="logo">
+          <a class="navbar-brand" href="#"><img src="Ellipse 4.png" style="width: 50px; height: 52px;"></a>
+          <h3>ILLYASH DIN MIYA</h3>
+        </div>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
            </button>
+
          <div class="collapse navbar-collapse" id="main_nav">
          
        
-         <ul class="navbar-nav ms-auto">
-           <li class="nav-item"><a class="nav-link" href="#background">Home</a></li>
-           <li class="nav-item"><a class="nav-link" href="#Services">Services</a></li>
-               <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+         <ul class="navbar-nav ms-auto" style="gap: 20px;">
+           <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+           <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
+               <li class="nav-item"><a class="nav-link" href="#tech">Technologies</a></li>
                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-               <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
-               <li class="nav-item"><a class="nav-link" href="#">FAQs</a></li>
+
            </li>
          </ul>
        
@@ -52,61 +64,91 @@
         </div> <!-- container-fluid.// -->
        </nav>
     <div class="figma">
-    <img src="Frame 33 (2).png">
-    <div class="text">
-      <p>ILLYASH DIN MIYA</p>
-      <p>Web Developer</p>
-      <p>Front-End Designer</p>
-    </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Frame 33 (2).png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-left" style="margin-bottom: 18%; font-size: xx-large; text-align: left;" >
+
+         <P>ILLYASH DIN MIYA</P>
+            <p>Web Developer</p>
+            <P>Front-End Designer</P>
+          </div>
+        </div>
   </div>
      </div>
-    <div class="button">
-    
-    </div>
- 
-<br>
-    <div class="Technologies" style="margin-top: 650px;">
+    </div>  
+  
+ <div id="tech">
+
+    <div class="Technologies" >
       <h3>Technologies I follow</h3>
 
       <div class="image">
-        <div class="image1">
-          <img src="image 19.png">
-          <h3>HTML</h3>
+        <div class="card" style="width: 20rem;">
+          <img src="image 19.png" class="card-img-top"  style="  width: 300px;
+          height: 350px;
+          object-fit: cover;">
+          <div class="card-body">
+            <p class="card-text" style="font-size: xx-large; margin-left: 32%;">HTML</p>
+          </div>
         </div>
-        <div class="image3">
-          <img src="image 20.png">
-          <h3>CSS</h3>
+        <div class="card" style="width: 20rem;">
+          <img src="image 20.png" class="card-img-top"   style="  width: 300px;
+          height: 350px;
+          object-fit: cover;">
+          <div class="card-body">
+            <p class="card-text" style="font-size: xx-large; margin-left: 37%;">CSS</p>
+          </div>
         </div>
-        <div class="image2">
-          <img src="figma.png">
-          <h3>FIGMA</h3>
-        </div>
+      <div class="card" style="width: 20rem;">
+  <img src="figma.png" class="card-img-top" style="  width: 300px;
+  height: 350px;
+  object-fit: cover;">
+  <div class="card-body">
+    <p class="card-text"  style="font-size: xx-large; margin-left: 37%;">FIGMA</p>
+  </div>
+</div>
+</div>
+<div id="project">
       </div>
     </div>
 <div class="projects" style="margin-top: 30px;">
   <h3>Projects</h3>
   <div class="pic">
-    <div class="pic1">
-      <img src="pro1.png">
-      <p>Visit Here -</p>
-      <a href="#">www.bootstrap.com</a>
+    <div class="card" style="width: 30rem;">
+      <img src="pro1.png" class="card-img-top" >
+      <div class="card-body">
+        <p class="card-text">Visit Here -</p>
+        <a href="#">www.index.com</a>
+      </div>
     </div>
-    <div class="pic2">
-      <img src="pro3.png">
-      <p>Visit Here -</p>
-      <a href="#">www.Projects.com</a>
+   
+      <div class="card" style="width: 30rem;">
+        <img src="pro3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Visit Here -</p>
+          <a href="#">www.index.com</a>
+        </div>
+      </div>
     </div>
-  </div>
-</div><br>
 
-<div class="container" style="background-color: #d0f0cb ; margin-top: -5px;">
+    <div id="contact">
+  
+</div>
+</div>
+<div class="container" style="background-color: #d0f0cb ; margin-top:   5px;border-radius: 5px;
+background-color: #d0f0cb;
+color: rgb(0, 0, 0);
+padding: 20px;
+margin: 20px auto; /* Center container with margin */
+max-width: 1200px;">
   <h2 style="text-align: center; padding: 15px; color: #0000006c;">Contact Us</h2>
 
-  <div class="row">
-    <div class="column">
-      <img src="image5.jpg" style="width:500px; padding: 20px; margin-top: 50px;">
+  <div class="row" style="display: flex;">
+    <div class="col">
+      <img src="image5.jpg" style="margin-top: 50px;">
     </div>
-    <div class="column">
+    <div class="col" >
       <form action="/action_page.php">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name.." style="border: 1px solid rgba(0, 0, 0, 0.303); border-radius: 10px;">
@@ -125,6 +167,8 @@
     </div>
   </div>
 </div>
+</div>
+
 
 </body>
 </html>

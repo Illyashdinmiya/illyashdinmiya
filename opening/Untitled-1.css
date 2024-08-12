@@ -4,9 +4,6 @@
   padding: 0;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .logo img {
   width: 56px;
@@ -21,20 +18,12 @@ body {
 
 
 
-.a a {
-  color: black;
-  text-decoration: none;
-  margin-right: 20px;
-  font-size: large;
-}
 
 .figma img {
   color: rgb(0, 0, 0);
   width: 100%;
   height: auto;
-  margin-top: 82px; /* Adjusted for the fixed header */
-  background-size: cover; /* Ensure the background image covers the entire section */
-  background-repeat: no-repeat;
+ 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,18 +35,7 @@ body {
   max-width: 1200px;
 }
 
-.text {
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  max-width: 900px;
-  height: auto;
-  line-height: 1.5;
-  font-size: 2em;
-  color: #ffffff;
-  margin-top: -500px;
-  margin-left: 250px;
-}
+
 
 .img {
   margin-left: 250px;
@@ -123,9 +101,7 @@ body {
 }
 
 .image1 img, .image2 img, .image3 img {
-  width: 300px;
-  height: 350px;
-  object-fit: cover;
+
 }
 
 .projects h3 {
@@ -202,12 +178,7 @@ input[type=submit]:hover {
 }
 
 .container {
-  border-radius: 5px;
-  background-color: #d0f0cb;
-  color: rgb(0, 0, 0);
-  padding: 20px;
-  margin: 20px auto; /* Center container with margin */
-  max-width: 1200px;
+  
 }
 
 .column {
@@ -224,15 +195,21 @@ input[type=submit]:hover {
   clear: both;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 
+  
   .row img {
+    width: 100%;
     height: auto;
+    margin-left: 0;
+    
   }
+
+
 
   .logo {
     margin-left: 10px;
@@ -268,7 +245,7 @@ input[type=submit]:hover {
   }
 
   .pic1, .pic2 {
-    flex: 1 1 100%;
+    grid:  100%;
   }
 
   .Technologies, .projects, .container {
